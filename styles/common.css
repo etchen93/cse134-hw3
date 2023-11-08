@@ -50,11 +50,6 @@ nav {
   z-index: 50;
 }
 
-nav:has(ul) {
-  padding: 0;
-  margin: 5px;
-}
-
 nav ul {
   padding: 0;
   margin: 0 5px;
