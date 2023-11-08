@@ -1,0 +1,57 @@
+@import 'common.css';
+
+#contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  width: 100%;
+  font-size: var(--default-font-size, 16px);
+}
+
+.form-group {
+  margin: 10px 0;
+  width: 100%;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: var(--primary-color, #E5D283);
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+}
+
+
+@media screen and (min-width: 1025px) {
+}
