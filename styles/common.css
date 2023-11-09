@@ -20,6 +20,10 @@ html {
   --section-header-font-size: 40px;
 }
 
+h1:has(+ p) {
+  margin-bottom: 0;
+}
+
 body {
   padding: 0;
   margin: 0;
